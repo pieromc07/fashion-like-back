@@ -1,0 +1,22 @@
+{
+  "name": "fashion-like-back",
+  "version": "1.0.0",
+  "description": "api fashion like",
+  "main": "index.js",
+  "repository": "https://github.com/pieromc07/fashion-like-back.git",
+  "author": "Pieromc <piero0716.mc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
+}
